@@ -1,0 +1,7 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: revert;
+    font-size: 30px;
+    color: #161b22;
+}

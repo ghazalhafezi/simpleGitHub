@@ -11,10 +11,13 @@ export default function SearchItem(props) {
     <div className="result">
       {props.data.map((item) => (
         <Link to={`/user/${item.login}`} className="item" key={item.id}>
-          <div>
+          <div className="result-img">
             <img src={item.avatar_url} alt="" />
           </div>
-          <div>{item.login}</div>
+          <div className="result-name">
+            <span>{item.login}</span>
+            <span className="score">Score: {item.score}</span>
+          </div>
         </Link>
       ))}
     </div>

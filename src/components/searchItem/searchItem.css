@@ -6,3 +6,28 @@
 .item img {
     width: 100px;
 }
+
+.result-img {
+    width: 100px;
+}
+
+.result-img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.result-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    background: brown;
+    color: #fff;
+    padding: 10px;
+    border-radius: 13px 4px;
+    margin-top: 15px;
+    font-size: 18px;
+}
